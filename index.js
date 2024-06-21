@@ -120,7 +120,7 @@ function renderWeatherInfo(weatherInfo) {
     desc.innerText = weatherInfo?.weather?.[0]?.description;
     weatherIcon.src = `http://openweathermap.org/img/w/${weatherInfo?.weather?.[0]?.icon}.png`;
     temp.innerText = `${weatherInfo?.main?.temp} °C`;
-    windspeed.innerText = `${weatherInfo?.wind?.speed} m/s`;
+    windspeed.innerText = `https://cdn-icons-png.flaticon.com/512/439/439440.pngm/s`;
     humidity.innerText = `${weatherInfo?.main?.humidity}%`;
     cloudiness.innerText = `${weatherInfo?.clouds?.all}%`;
 
